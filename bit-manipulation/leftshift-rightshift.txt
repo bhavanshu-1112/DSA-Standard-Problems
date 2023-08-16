@@ -1,0 +1,26 @@
+
+ 5 << 2 = 5 left shift 2 
+
+<-----
+000101
+
+after left shift
+010100
+
+a << b => a * pow(2,b);
+ left shift does multiplication
+
+
+ a >> b => a/pow(2,b);
+ right shift does division
+
+10 >> 1
+ ----->
+ 00001010  10
+ after
+0000101 10/2 =5
+
+---> 00010   5/2
+
+ ----> 00001  2/2
+
